@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FileUpload } from './FielUpload';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpEventType } from '@angular/common/http';
 import { ReadVarExpr } from '@angular/compiler';
 
 @Component({
@@ -9,36 +9,42 @@ import { ReadVarExpr } from '@angular/compiler';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fsi-hackathon2';
+  title = 'Session Upload';
 
-  username: string = '';
+  constructor(private http: HttpClient) { }
+
+
   fileUpload :FileUpload = {} as FileUpload;
   fileToUpload: File = null;
 
   onsubmitclicked() {
     alert(this.fileUpload.therapistId);
     alert(this.fileUpload.recordingLocation);
-    
-   
 
-  }
+    this.fileUpload.fileContent = this.fileToUpload;
+    
+ 
+    this
+    .http
+    .post("URL",this.fileUpload,{reportProgress: true, observe: 'events'})
+    .subscribe(event =>{
+      if (event.type === HttpEventType.UploadProgress){
+
+      }
+      else if(event.type === HttpEventType.Response){
+        alert("recording uploaded successfully");
+      }
+    });
+    
+
+ 
+}
+
 
   handleFileInput(files: FileList) {
-    console.log("in file upload");
+    console.log("in file");
     this.fileToUpload = files.item(0);
-    
-    var myReader:FileReader = new FileReader();
-
-    myReader.onloadend = function(e){
-      // you can perform an action with readed data here
-      //console.log(myReader.result);
-      console.log("process of reading complete");
-      return myReader.result;  
-    }
-    this.fileUpload.fileContent = myReader.readAsText(this.fileToUpload)
-
-    console.log(this.fileUpload.fileContent);
-
+        
 }
 
 }

@@ -3,6 +3,6 @@ export interface FileUpload{
     patientId:String;
     sessionId:String;
     recordingLocation:any;
-    fileContent:any;
+    fileContent:File;
 
 }
