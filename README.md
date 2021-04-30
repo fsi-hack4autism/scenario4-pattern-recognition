@@ -16,6 +16,5 @@ The backend portion connects to LineDanceAI and analyze a test sequence with a b
 * App Service
 * GitHub
 
-# Local Developement
-
+ 
  
