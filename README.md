@@ -1,6 +1,5 @@
 # Visualizer Front End
 
-
 ## Set Up
 * Azure App Service and App Service Plan
 * git
@@ -45,6 +44,33 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 *visualizer 
 ![image](https://user-images.githubusercontent.com/82239191/116743927-9c40a380-a9c7-11eb-946d-92c5ecee418d.png)
 
+
+
+
+
+## Objectives
+There are 4 functionalities that we want to build (mentioned in below)
+
+https://github.com/fsi-hack4autism/scenario4-pattern-recognition/wiki
+
+
+## current state:
+
+Front end templates are build:
+1) Allow users to login
+2) Allow therapist / researcher to upload benchmark and test recordings.
+3) Visualize results and ability to put comments and save it.
+
+## next state:
+1) integrate with login API and implement authentication.
+2) Upload and store recordings to storage (blob storage??)
+3) Save visualization results from lineanddance api to permanent storage using the api that was built in a differnt branch
+
+## future state:
+1) A database for therapist, patient and session recordings with a simple GUI for management and appropriate security guardrails
+2) A marketplace or repository of benchmark (pattern recognition) files that is shareable to different users
+4) A metadata store for the time-series pattern recognition against therapy sessions
+5) A GUI/visuals that matches the metadata to the session recording 
 
 
 
