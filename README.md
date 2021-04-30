@@ -1,5 +1,11 @@
 # Visualizer Front End
 
+## Overall Purpose
+1) A database for therapist, patient and session recordings with a simple GUI for management and appropriate security guardrails
+2) A marketplace or repository of benchmark (pattern recognition) files that is shareable to different users
+4) A metadata store for the time-series pattern recognition against therapy sessions
+5) A GUI/visuals that matches the metadata to the session recording 
+
 ## Set Up
 * Azure App Service and App Service Plan
 * git
