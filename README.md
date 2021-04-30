@@ -1,7 +1,14 @@
-# FsiHackathon2
+# Visualizer Front End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
+## Set Up
+* Azure App Service and App Service Plan
+* git
+* node.js
+* npm
+* Yarn and Angular CLI
+
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
