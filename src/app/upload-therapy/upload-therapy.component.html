@@ -1,0 +1,16 @@
+
+<form action="">
+
+    <div>Therapist</div>    <div><input type="text" id="therapist" name="therapist" [(ngModel)]="fileUpload.therapistId"></div>
+    <div>Patient</div>    <div><input type="text" id="patient" name="patient" [(ngModel)]="fileUpload.patientId"></div>
+    <div>Session</div>    <div><input type="text" id="session" name="session" [(ngModel)]="fileUpload.sessionId"></div>
+    <div>Recording</div>    <div><input type="file" name="recording" id="recording" [(ngModel)]="fileUpload.recordingLocation" (change)="handleFileInput($event.target.files)"></div>
+    <div>&nbsp;</div>
+    
+
+
+<button type="button" (click)="onsubmitclicked()">Submit</button>
+
+
+  </form>
+

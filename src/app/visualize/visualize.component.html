@@ -1,0 +1,55 @@
+<table>
+    <tr>
+        <td>
+            <div class="donut">
+                <app-donutchart id="overall" #overall [doughnutChartLabels]= "doughnutChartLabels1" [doughnutChartData]="doughnutChartData1"></app-donutchart>
+            </div>       
+        </td>        
+        <td>
+            <div class="donut">
+                <app-donutchart id="firscuver" #overall [doughnutChartLabels]= "doughnutChartLabels2" [doughnutChartData]="doughnutChartData2"></app-donutchart>
+                </div>
+        </td>
+        <td>
+            <div class="donut">
+                <app-donutchart id="firscuver" #overall [doughnutChartLabels]= "doughnutChartLabels3" [doughnutChartData]="doughnutChartData3"></app-donutchart>
+                </div>
+        </td>
+    
+    </tr>
+    <tr>
+        <td colspan=3>
+            <div>
+                <app-linechart [lineChartData]="lineChartData"></app-linechart>
+                </div>
+        </td>
+    
+        
+    </tr>
+
+    <tr>
+        <td>Comments</td>
+        <td colspan=2>
+            <div>
+                <textarea></textarea>
+                </div>
+        </td>
+    
+        
+    </tr>
+
+    <tr>
+        
+        <td colspan=3>
+            <div>
+                <input type="button" value="Save" />
+                </div>
+        </td>
+    
+        
+    </tr>
+
+    
+</table>
+
+
