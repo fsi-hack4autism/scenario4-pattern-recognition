@@ -1,4 +1,4 @@
-# Visualizer Front End
+#  Front End
 
 ## Overall Purpose
 1) A database for therapist, patient and session recordings with a simple GUI for management and appropriate security guardrails
