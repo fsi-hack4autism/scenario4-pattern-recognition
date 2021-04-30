@@ -39,6 +39,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Architecture:
+
+![image](https://user-images.githubusercontent.com/82239191/116749761-6a333f80-a9cf-11eb-8bcb-e5f5ecccf3fb.png)
+
+
+
 
 ## Screens
 
@@ -50,7 +56,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 *visualizer 
 ![image](https://user-images.githubusercontent.com/82239191/116743927-9c40a380-a9c7-11eb-946d-92c5ecee418d.png)
-
 
 
 
