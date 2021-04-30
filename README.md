@@ -12,6 +12,7 @@
 * node.js
 * npm
 * Yarn and Angular CLI
+* Angular
 
  
 ## Development server
