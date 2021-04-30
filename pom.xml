@@ -36,11 +36,7 @@
       <artifactId>azure-cosmosdb-spring-boot-starter</artifactId>  
       <version>3.0.0-beta.1</version> 
     </dependency>  
-    <dependency> 
-      <groupId>com.microsoft.sqlserver</groupId>  
-      <artifactId>mssql-jdbc</artifactId>  
-      <version>9.2.1.jre11</version> 
-    </dependency>  
+      
     <dependency> 
       <groupId>com.azure</groupId>  
       <artifactId>azure-cosmos</artifactId>  
