@@ -51,6 +51,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'visualizer'
-        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b5e4e11d3fcf4b76a232908a599aba83 }}
-        package: .
+        package: ./dist/fsi-visualizer-front
