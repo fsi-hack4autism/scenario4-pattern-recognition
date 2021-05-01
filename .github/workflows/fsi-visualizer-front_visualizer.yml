@@ -52,4 +52,4 @@ jobs:
       with:
         app-name: 'visualizer'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b5e4e11d3fcf4b76a232908a599aba83 }}
-        package: ./dist/fsi-visualizer-front
+        package: ./dist/scenario4-pattern-recognition
