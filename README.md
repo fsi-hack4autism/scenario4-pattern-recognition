@@ -1,3 +1,4 @@
+
 # scenario4-pattern-recognition
 
 The key goal of use case 4 is to aid with data collection of these repetitive behaviors and allow the therapist to focus more on the session vs. data collection. A secondary objective is to aid in identification of autism in recognizing specific repetitive motions and behaviors that are indicative of autism, finding similarities in patterns and potential recommendations on treatments.
@@ -57,6 +58,10 @@ Backend API's that were built
 2) Save the results of analysis using LinedanceAI along with the commentary from therapist, into the database
 3) Download the results from the database for future analysis
 4) A database for therapist, patient and session recordings
+
+API's that were built -
+
+![samplerequests](https://user-images.githubusercontent.com/81990069/117555296-fd055700-b02b-11eb-8602-8892c08b88ef.PNG)
 
 ## Next state:
 1) integrate frontend screens with the backend service for authentication and other APIs.
