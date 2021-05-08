@@ -32,7 +32,8 @@ The use case is divided into 2 parts
 
 ## Proposed Architecture:
 
-![image](https://user-images.githubusercontent.com/82239191/116749761-6a333f80-a9cf-11eb-8bcb-e5f5ecccf3fb.png)
+![UseCash-Arch](https://user-images.githubusercontent.com/81990069/117555453-4a35f880-b02d-11eb-9a5b-0498b9e6d975.gif)
+
 
 ## Screens
 
